@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Confirmation - Fluent UI",
+    "id": "3dcba2ad-621d-4b71-b8bb-b1f8043f07b4",
+    "version": "2.1.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "potwierdzanie-informacji description"
+      },
+      "longDescription": {
+        "default": "potwierdzanie-informacji description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "potwierdzanie-informacji Feature",
+        "description": "The feature that activates elements of the potwierdzanie-informacji solution.",
+        "id": "c6646732-299a-46c5-9364-3fc3f05e39ac",
+        "version": "2.1.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/FluentConfirmation.sppkg"
+  }
+}

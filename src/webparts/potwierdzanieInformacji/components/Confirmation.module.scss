@@ -1,0 +1,96 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.confirm {
+    display: flex;
+    column-gap: 6px; //get only gap from margins of checkbox and label
+    padding-bottom: 36px;
+    margin-right: 36px;
+    position: relative;
+    left: -2px;
+    max-width: 430px;
+}
+
+.text {
+    color: var(--bodyText);
+    float: right;
+    max-width: 430px;
+    font-size: 14px;
+    margin-left: 6px;
+    font-weight: 400;
+    padding-right: 36px;
+    padding-top: 20px;
+}
+
+.textArea {
+    padding-top: 36px;
+    color: var(--bodyText);
+    margin-left: -2px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    outline: 0;
+    resize: none;
+    width: 100%;
+    font-family: inherit;
+    line-height: inherit;
+    text-align: inherit;
+
+    ::placeholder {
+        color: "#323130";
+        font-weight: 400;
+    }
+}
+
+.textAreaDark {
+    padding-top: 36px;
+    color: #ffffff;
+    margin-left: -3px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    outline: 0;
+    resize: none;
+    width: 100%;
+    font-family: inherit;
+    line-height: inherit;
+    text-align: inherit;
+
+    ::placeholder {
+        color: #ffffff;
+        font-weight: 400;
+    }
+}
+
+.btnWrapper {
+    display: 'flex';
+    column-gap: 16px;
+    padding-left: 8px;
+    padding-bottom: 36px;
+}
+
+.cfmWrapper {
+    padding-left: 8px;
+}
+
+.cfmWrapperDisplayNone {
+    display: "none"
+}
+
+.responsive {
+    padding-top: 23px;
+}
+
+@media (width: 1600px) {
+    .responsive {
+        display: flex;
+        .btnWrapper {
+            float: right;
+        }
+    }
+  }

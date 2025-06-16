@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "potwierdzanie-informacji",
+    "libraryId": "3dcba2ad-621d-4b71-b8bb-b1f8043f07b4",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "potwierdzanie-informacji",
+    "solutionShortDescription": "potwierdzanie-informacji description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
