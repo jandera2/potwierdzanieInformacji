@@ -3,6 +3,8 @@
 .potwierdzanieInformacji {
   max-width: 600px;
   overflow: hidden;
+  font-family: var(--fontFamilyCustomFont800, var(--fontFamilyBase)); // Paragraph medium dla głównego contentu
+  
   &.teams {
     font-family: $ms-font-family-fallbacks;
   }
@@ -10,6 +12,7 @@
 
 .welcome {
   text-align: center;
+  font-family: var(--fontFamilyCustomFont1300, var(--fontFamilyBase)); // Heading large dla tytułów
 }
 
 .welcomeImage {
@@ -22,6 +25,7 @@
     text-decoration: none;
     color: "[theme:link, default:#03787c]";
     color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+    font-family: var(--fontFamilyCustomFont500, var(--fontFamilyBase)); // Label medium dla linków
 
     &:hover {
       text-decoration: underline;
@@ -33,18 +37,20 @@
 
 .text {
   color: black;
+  font-family: var(--fontFamilyCustomFont700, var(--fontFamilyBase)); // Paragraph small dla tekstu
 }
-
 
 .btnWrapper {
   display: 'flex';
   column-gap: 16px;
   padding-left: 8px;
   padding-bottom: 36px;
+  font-family: var(--fontFamilyCustomFont600, var(--fontFamilyBase)); // Label large dla przycisków
 }
 
 .cfmWrapper {
   //display: 'flex';
   padding-left: 8px;
   padding-top: 36px;
+  font-family: var(--fontFamilyCustomFont800, var(--fontFamilyBase)); // Paragraph medium dla wrapper
 }
